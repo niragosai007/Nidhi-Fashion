@@ -260,9 +260,7 @@
 
 }
 @media screen and (max-width: 992px){
-   
-    
-    #side2 input{
+     #side2 input{
         width:50%;
         
     }
@@ -272,8 +270,7 @@
 
 }
 @media screen and (max-width: 330px){
-   
-    #side2 input{
+   #side2 input{
         width:10%;
     }
     .inp input{
@@ -314,7 +311,7 @@
 }
 #messagebtn button{
     margin-top: 20px; 
-    width: 200px;   
+    width: 40%;   
     height: 33px;
     background: transparent;
     border: 2px solid #1e1e55;

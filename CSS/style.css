@@ -207,7 +207,7 @@
 }
 .plan-a{
     width: 100%;
-    height: 16vh;
+    height: 8vh;
 }
 .home .img-2{
     width: 100%;
@@ -362,9 +362,6 @@
     float: right;
     text-align: center;
 }
-html{
-    scroll-behavior: smooth;
-}
 .arrow{
     position: fixed;
     border-radius: 10px;
@@ -459,7 +456,7 @@ html{
         align-items: center;
     }
     .iframe{
-        width: 30%;
+       display: none
     }
 }
 @media screen and (max-width:750px) {
@@ -468,7 +465,7 @@ html{
         align-items: center;
     }
     .iframe{
-        width: 50%;
+        display: none;
     }
 }
 

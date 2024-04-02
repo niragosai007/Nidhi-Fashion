@@ -435,6 +435,16 @@ html{
     width: 100%;
 
 }
+@media screen and (max-width:768px) {
+	.iframe1 {
+	   display: none;
+	}
+}
+@media screen and (max-width:500px) {
+	.iframe1{
+		display: none;
+	}
+}
 
 
 
