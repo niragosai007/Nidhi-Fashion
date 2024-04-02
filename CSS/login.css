@@ -36,5 +36,100 @@
 }
 #side2{
     background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    align-items: center;
+    text-align: center;
 }
+#side2 h3{
+    margin-top: 50px;
+    color: #1e1e55;
+    font-weight: bold;
+
+}
+#side2 .inp{
+    margin-top: 32px;
+}
+#side2 input{
+    width:500px;
+    margin-top: 20px;
+    height: 36px;
+    align-items: center;
+}
+#side2 p{
+    margin-top: 20px;
+    cursor: pointer;
+}
+#side2 .icons i{
+    margin-left: 10px;
+    cursor: pointer;
+}
+#login{
+    margin-top: 10px;
+}
+#login button{
+    width: 200px;
+    height: 32px;
+    color: white;
+    background-color: #1e1e55;
+    border: none;
+    font-weight: bold;
+
+}
+@media screen and (max-width: 992px){
+    #side2 input{
+        width:300px;
+    }
+}
+@media screen and (max-width: 330px){
+    #side2 input{
+        width:200px;
+    }
+}
+    
+
 /* login */
+/*contact*/
+#contact{
+    margin-top: 50px;
+}
+#contact h1{
+    color: #1e1e55;
+    text-shadow: 0px 0px 1px black;
+}
+#contact.card{
+    height: 80px;
+    margin-top: 20px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+#contact .card i{
+    margin-top: 10px;  
+    margin-left: 10px; 
+    font-size: 15px; 
+    color: #1e1e55;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+#contact .card h6{
+    margin-left: 10px;  
+    margin-top: 10px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #1e1e55;
+}
+#messagebtn button{
+    margin-top: 20px; 
+    width: 200px;   
+    height: 33px;
+    background: transparent;
+    border: 2px solid #1e1e55;
+    color: #1e1e55;
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: 0.5s ease;
+}
+#messagebtn button:hover{
+    background-color: #1e1e55;
+    color: white;
+}
+/*contact*/
