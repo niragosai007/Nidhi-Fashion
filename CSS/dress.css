@@ -431,6 +431,16 @@ html{
 .iframe1{
     margin-top: 50px;
 }
+@media screen and (max-width:768px) {
+	.iframe1 {
+	   width: 50%;
+	}
+}
+@media screen and (max-width:500px) {
+	.iframe1{
+		width: 40%;
+	}
+}
 
 
 

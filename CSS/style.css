@@ -458,11 +458,17 @@ html{
         display: block;
         align-items: center;
     }
+    .iframe{
+        width: 30%;
+    }
 }
 @media screen and (max-width:750px) {
     .about-img{
         display: block;
         align-items: center;
+    }
+    .iframe{
+        width: 50%;
     }
 }
 

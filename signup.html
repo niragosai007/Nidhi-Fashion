@@ -12,8 +12,82 @@
      <link rel="stylesheet" href="./CSS/login.css">
 </head>
 <body>
+    
+    <!-- top navbar -->
+    <div id="top-nav">
+        <div class="top-navbar">
+            <div class="top-icons">
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+            </div>
+            <div class="other-link">
+                <button id="btn-login"><a href="./login.html">Login</a></button>
+                <button id="btn-signup"><a href="./signup.html">Sign up</a></button>
+    
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+         
+          
+        <div class="home-section">
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-lg" id="navbar">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Nidhi-Fashion </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars" style="color: white;"></i></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./cloth.html">Product</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Category
+                        </a>
+                        <ul class="dropdown-menu" style="background-color: #1c1c50;">
+                          <li><a class="dropdown-item" href="./t-shirt.html">T-shirt</a></li>
+                          <li><a class="dropdown-item" href="./dress.html">Dress</a></li>
+                          <li><a class="dropdown-item" href="./shoes.html">Soprts Shoes</a></li>
+                        
+                    
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact us</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit" id="search-btn">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    
+       </div>
+       <div class="plan-b"></div>
+       
+
+
+
+
+
+
+
+
     <!--sign up-->
-    <div class="container login">
+   <center> <div class="container login">
         <div class="row">
             <div class="col-md-4" id="side1">
                 <h3>Welcome to Nidhi Fashion</h3>
@@ -23,9 +97,9 @@
             <div class="col-md-8" id="side2">
                 <h3>Create Account</h3>
                  <div class="inp">
-                    <input type="text" placeholder="User Name" required>
-                    <input type="e-mail" placeholder="E-mail" required>
-                    <input type="text" placeholder="Password" required>
+                    <input type="text" placeholder="User Name" required><br>
+                    <input type="e-mail" placeholder="E-mail" required><br>
+                    <input type="text" placeholder="Password" required><br>
                  </div>
                  <p>Forgot your password?</p>
                   <div class="icons">
@@ -37,6 +111,14 @@
             </div>
         </div>
 
-    </div>
+    </div></center>
      <!--sign up-->
+
+
+
+
+     
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
+</html>
