@@ -423,46 +423,18 @@ html{
     color: #1c1c50;
     font-style: italic;
     margin-top: 30px;
-    
-}
-.about-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%
-}
-.poster11{
-    width: 100%;
-}
-    
-.poster11 img{
-    width: 100%;
-    text-align: center;
-    margin: 10px;
-}
-.section{
-    margin-top: 40px;
 }
 .plan-b{
     width: 100%;
     height: 16vh;
 }
-.section{
-    width: 80%;
-    padding: 20px;
+.iframe1{
+    margin-top: 50px;
+}
+.imgggg{
+    width: 100%;
+
 }
 
 
-@media screen and (max-width:350px) {
-    .about-img{
-        display: block;
-        align-items: center;
-    }
-}
-@media screen and (max-width:750px) {
-    .about-img{
-        display: block;
-        align-items: center;
-    }
-}
 
